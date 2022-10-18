@@ -1,0 +1,5 @@
+Student name: Robin Lemmers
+Student number: 676949
+Student class: inf1a
+URL student GitHub website: https://SuperTNT17.github.io
+URL student GitHub repository: https://github.com/SuperTNT17/SuperTNT17.github.io

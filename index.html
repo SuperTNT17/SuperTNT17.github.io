@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>header 1</h1>
+    <header>
+        <img src="img/logo.jpg" title="logo" alt="logo">
+        <h1>Title</h1>
+        <h2>Payoff</h2>
+    </header>
+    <nav>
+        <ul class="standardMenu">
+            <li>
+                <a href="product.html">product</a>
+            </li>
+            <li>
+                <a href="pricing.html">pricing</a>
+            </li>
+            <li>
+                <a href="contact.html">contact</a>
+            </li>
+        </ul>
+        <section class="hamburgerMenu">
+            <input type="checkbox" id="btnControl" />
+            <label class="btn" for="btnControl"><img src="img/hamburgerMenuIcon.png"></label>
+            <ul class="dropdownContent">
+                <li>
+                    <a href="product.html">product</a>
+                </li>
+                <li>
+                    <a href="pricing.html">pricing</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
 </body>
+
 </html>

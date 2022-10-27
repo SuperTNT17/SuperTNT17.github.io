@@ -24,7 +24,7 @@ ul {
     #btnControl:checked~.dropdownContent {
         display: inline;
     }
-
+	
 }
 
 @media screen and (min-width: 481px) and (max-width: 1297px) {
@@ -40,5 +40,9 @@ ul {
     .hamburgerMenu {
         display: none;
     }
-
+	
+	video{
+		width: 640px;
+		height: 360px;
+	}
 }

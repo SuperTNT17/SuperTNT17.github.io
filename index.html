@@ -3,68 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Website</title>
 </head>
 
 <body>
     <header>
-        <img src="img/logo.jpg" title="logo" alt="logo">
-        <h1>Title</h1>
-        <h2>Payoff</h2>
+        <img id="logo" src="img/logo.jpg" title="logo" alt="logo">
+        <h1 id="title">Sportinnovaties</h1>
+        <h2 id="payoff">Innovaties in sport</h2>
     </header>
     <nav>
         <ul class="standardMenu">
-            <li>
-                <a href="product.html">product</a>
-            </li>
-            <li>
-                <a href="pricing.html">pricing</a>
-            </li>
-            <li>
-                <a href="contact.html">contact</a>
-            </li>
+            <li class="menuItem"><a href="product.html">product</a></li>
+            <li class="menuItem"><a href="pricing.html">pricing</a></li>
+            <li class="menuItem"><a href="contact.html">contact</a></li>
         </ul>
-        <section class="hamburgerMenu">
+        <section id="hamburgerMenu">
             <input type="checkbox" id="btnControl" />
-            <label class="btn" for="btnControl"><img src="img/hamburgerMenuIcon.png"></label>
+            <label for="btnControl"><img src="img/hamburgerMenuIcon.png"></label>
             <ul class="dropdownContent">
-                <li>
-                    <a href="product.html">product</a>
-                </li>
-                <li>
-                    <a href="pricing.html">pricing</a>
-                </li>
-                <li>
-                    <a href="contact.html">contact</a>
-                </li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="pricing.html">pricing</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </section>
     </nav>
-	<video autoplay muted>
-		<source src="video/promotional_video.mp4" type="video/mp4">
-		<source src="video/promotional_video.ogg" type="video/ogg">
-	</video>
-	<section>
-		<article>
-			<header>article 1 header</header>
-			<p>article 1 text (70 - 100 woorden in dit article)</p>
-			<img src="img/logo.jpg">
-			<footer>article 1 footer</footer>
-		</article>
-		<article>
-			<header>article 2 header</header>
-			<p>article 2 text (70 - 100 woorden in dit article)</p>
-			<img src="img/logo.jpg">
-			<footer>article 2 footer</footer>
-		</article>
-		<article>
-			<header>article 3 header</header>
-			<p>article 3 text (70 - 100 woorden in dit article)</p>
-			<img src="img/logo.jpg">
-			<footer>article 3 footer</footer>
-		</article>
-	</section>
+    <video autoplay muted loop>
+        <source src="video/promotional_video.mp4" type="video/mp4">
+        <source src="video/promotional_video.ogg" type="video/ogg">
+    </video>
+    <section class="articlesAndAside">
+        <section class="articles">
+            <article class="article1">
+                <header>Koostofvezel voetbal</header>
+                <p>Een koolstofvezel voetbal is een goede technologie, want het maakt de voetbal lichter en dan is het minder zwaar voor de voetballers die het gebruiken. Het is ook beter voor het milieu, want de materialen worden op een milieu bewuste manier gemaakt voor het gebruik van deze bal. Je kan ook makkelijk de kleur veranderen met de speciale technologie verf dat nieuw is voor deze sport en alle andere sporten bij elkaar. Het wordt pas 3 maanden gebruikt door de meeste clubs.</p>
+                <a class="articleImage" href=""><img src="img/voetbal.jpg"></a>
+                <a class="articleImage" href="https://willemwever.kro-ncrv.nl/vraag_antwoord/sport/hoe-voetbal-ontstaan">&copy; Willem Wever</a>
+                <footer><a href="">Meer informatie over de voetbal</a></footer>
+            </article>
+            <article class="article2">
+                <header>Extra gladde tennisschoenen</header>
+                <p>De extra gladde schoenen zijn gemaakt zodat de tennissers makkelijker kunnen glijden over de grond als ze bij de bal moeten en ze zijn niet ver genoeg. Deze schoenen zijn extra glad door de speciale onderkant dat is gemaakt van 23 verschillende soorten kunststof die allemaal anders zijn. Dit zorgt ervoor dat er veel minder wrijving is tussen de schoen en de vloer dus dan glijdt het beter. De meeste tennissers gebruiken dit om net bij de bal te kunnen.</p>
+                <a class="articleImage" href=""><img src="img/tennisschoenen.jpg"></a>
+                <a class="articleImage" href="https://www.onlinetennisser.nl/tennisschoenen-kopen-tips/">&copy; onlinetennisser</a>
+                <footer><a href="">Meer info over de schoenen</a></footer>
+            </article>
+            <article class="article3">
+                <header>Flexibele basketbalring</header>
+                <p>De flexibele basketbal ring is gemaakt om de ring beter te laten bewegen als er een bal tegenaan komt. Dit is goed, want dan is het minder voorspelbaar om te weten waar de bal heen gaat en dan is het eerlijker voor beide teams. Het is gemaakt met rubber dat op een milieu bewuste manier is verkregen uit de natuur. De ring kan binnen of buiten worden gebruikt, want het kan tegen water.</p>
+                <a class="articleImage" href=""><img src="img/basketbalring.jpg"></a>
+                <a class="articleImage" href="https://sportbay.nl/en/p/Basketball-boards-basketball-rings/187">&copy; sportbay</a>
+                <footer><a href="">Meer informatie over de ring</a></footer>
+            </article>
+        </section>
+        <aside class="top5">
+            <p>Top 5 opkomende routes</p>
+            <ol>
+                <li>Nederland, het is heel vlak, dus er zijn geen bergen.</li>
+                <li>Duitsland, de mensen spreken hier Duits.</li>
+                <li>Hongarije, dit land is een van de landen.</li>
+                <li>Mexico, in dit land is wat woestijn.</li>
+                <li>Antarctica, het is hier heel koud en er is sneeuw</li>
+            </ol>
+        </aside>
+    </section>
+    <footer id="copyright">
+        <p>&copy; 2022 Robin Lemmers</p>
+    </footer>
+    <section class="cookiestatement">
+        <p>Cookie statement</p>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#title {
+    background-color: #757171;
+}
+
+#payoff {
+    background-color: #AEAAAA;
+}
+
+nav {
+    background-color: #4472C4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+video {
+    background-color: #F8CBAD;
+}
+
+.article1 {
+    background-color: #E2EFDA;
+}
+
+.article2 {
+    background-color: #C6E0B4;
+}
+
+.article3 {
+    background-color: #A9D08E;
+}
+
+aside {
+    background-color: #FFF2CC;
+}
+
+#copyright {
+    background-color: #D6DCE4;
+}
+
+.cookiestatement {
+    position: fixed;
+    background-color: #FA0;
+    opacity: 50%;
+    bottom: 0;
+    right: 0;
+    margin: 7px;
+}
+
+.cookiestatement p {
+    color: #FFF;
+}
+
+@media screen and (max-width: 480px) {      /* mobile */
+
+    #standardMenu {
+        display: none;
+    }
+
+    .dropdownContent {
+        display: none;
+    }
+
+    #btnControl {
+        display: none;
+    }
+
+    #btnControl:checked~.dropdownContent {
+        display: inline;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1297px) {      /* tablet */
+
+    #hamburgerMenu {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {     /* pc */
+
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+
+    #title {
+        margin: 5px auto;
+    }
+
+    #payoff {
+        margin: 5px auto;
+    }
+
+    nav {
+        margin-bottom: 5px;
+    }
+
+    .standardMenu {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menuItem {
+        display: flex;
+        width: 100px;
+        height: 30px;
+        justify-content: center;
+        background-color: #8ca8d8;
+        align-items: center;
+    }
+
+    #hamburgerMenu {
+        display: none;
+    }
+
+    video {
+        width: 640px;
+        height: 360px;
+        margin: 5px 0;
+    }
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .articles article {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+    .articleImage {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .articles img {
+        width: 300px;
+    }
+
+    .top5 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .top5 {
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    .articlesAndAside {
+        display: flex;
+    }
+
+}

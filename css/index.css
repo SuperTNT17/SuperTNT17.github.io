@@ -76,7 +76,7 @@ aside {
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 1297px) {      /* tablet */
+@media screen and (min-width: 481px) and (max-width: 1279px) {      /* tablet */
 
     #hamburgerMenu {
         display: none;
